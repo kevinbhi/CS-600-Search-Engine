@@ -21,3 +21,58 @@ python(3) app.py
 
 ## Sample session from the app
 
+D:\CS-600-Search-Engine>
+D:\CS-600-Search-Engine>python app.py
+Starting app
+Indexing
+# D:\CS-600-Search-Engine\data\Babar_Azam.html
+# D:\CS-600-Search-Engine\data\Joe_Root.html
+# D:\CS-600-Search-Engine\data\Kane_Williamson.html
+# D:\CS-600-Search-Engine\data\Rohit_Sharma.html
+# D:\CS-600-Search-Engine\data\Virat_Kohli.html
+Indexing complete
+Enter word to search. Press CTRL+C to quit: india
+┌─────────┬───────────────────────────────────────────────────┬──────────────┐
+│   Index │ File                                              │   Occurrence │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       0 │ D:\CS-600-Search-Engine\data\Virat_Kohli.html     │          235 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       1 │ D:\CS-600-Search-Engine\data\Rohit_Sharma.html    │           62 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       2 │ D:\CS-600-Search-Engine\data\Joe_Root.html        │           19 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       3 │ D:\CS-600-Search-Engine\data\Kane_Williamson.html │            9 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       4 │ D:\CS-600-Search-Engine\data\Babar_Azam.html      │            7 │
+└─────────┴───────────────────────────────────────────────────┴──────────────┘
+Enter word to search. Press CTRL+C to quit:
+Empty word. Try again
+Enter word to search. Press CTRL+C to quit: sharma
+┌─────────┬───────────────────────────────────────────────────┬──────────────┐
+│   Index │ File                                              │   Occurrence │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       0 │ D:\CS-600-Search-Engine\data\Rohit_Sharma.html    │          150 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       1 │ D:\CS-600-Search-Engine\data\Virat_Kohli.html     │           30 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       2 │ D:\CS-600-Search-Engine\data\Babar_Azam.html      │            2 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       3 │ D:\CS-600-Search-Engine\data\Joe_Root.html        │            1 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       4 │ D:\CS-600-Search-Engine\data\Kane_Williamson.html │            1 │
+└─────────┴───────────────────────────────────────────────────┴──────────────┘
+Enter word to search. Press CTRL+C to quit: australia
+┌─────────┬───────────────────────────────────────────────────┬──────────────┐
+│   Index │ File                                              │   Occurrence │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       0 │ D:\CS-600-Search-Engine\data\Virat_Kohli.html     │           34 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       1 │ D:\CS-600-Search-Engine\data\Joe_Root.html        │           20 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       2 │ D:\CS-600-Search-Engine\data\Babar_Azam.html      │           14 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       3 │ D:\CS-600-Search-Engine\data\Rohit_Sharma.html    │           12 │
+├─────────┼───────────────────────────────────────────────────┼──────────────┤
+│       4 │ D:\CS-600-Search-Engine\data\Kane_Williamson.html │            8 │
+└─────────┴───────────────────────────────────────────────────┴──────────────┘
+Enter word to search. Press CTRL+C to quit:
