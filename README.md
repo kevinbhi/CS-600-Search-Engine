@@ -13,14 +13,20 @@ The trie implementation is in trie.py. The trie will have nodes for each charact
 ## Running
 The program can be run with python3 (python in windows environment). First the dependencies should be installed using pip3
 
+<pre>
 pip3 install -r requirements.txt
+</pre>
+
 
 then
 
+<pre>
 python(3) app.py
+</pre>
+
 
 ## Sample session from the app
-
+<pre>
 D:\CS-600-Search-Engine>
 D:\CS-600-Search-Engine>python app.py
 Starting app
@@ -75,4 +81,5 @@ Enter word to search. Press CTRL+C to quit: australia
 ├─────────┼───────────────────────────────────────────────────┼──────────────┤
 │       4 │ D:\CS-600-Search-Engine\data\Kane_Williamson.html │            8 │
 └─────────┴───────────────────────────────────────────────────┴──────────────┘
-Enter word to search. Press CTRL+C to quit:
+Enter word to search. Press CTRL+C to quit:</pre>
+
