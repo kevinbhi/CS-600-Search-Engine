@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 then
 
 <pre>
-python(3) app.py
+python app.py
 </pre>
 
 
